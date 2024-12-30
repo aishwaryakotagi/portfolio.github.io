@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solving in Algorithms</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .question {
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 5px solid #2196F3;
+        }
+        .answer {
+            background-color: #e8f4f8;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #4CAF50;
+        }
+        .question, .answer {
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .question h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .answer p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        .section-title {
+            color: #2196F3;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Problem Solving in Algorithms</h1>
+
+        <div class="section-title">Types of Problems</div>
+        <div class="question">
+            <h3>1. What are the kinds of problems we see in nature? (iteration, recursion, backtracking)</h3>
+        </div>
+        <div class="answer">
+            <p>Problems in nature can often be solved using different techniques such as iteration, recursion, and backtracking. Iteration is used when a problem can be solved through repetitive steps, recursion is used for problems that break down into smaller subproblems, and backtracking is applied when a solution needs to be built step by step, undoing steps when a dead-end is reached.</p>
+        </div>
+
+        <div class="section-title">Efficiency and Growth</div>
+        <div class="question">
+            <h3>2. What is space and time efficiency? Why are they important? Explain the different class of problems and orders of growth</h3>
+        </div>
+        <div class="answer">
+            <p>Space and time efficiency refer to the usage of memory and time resources while solving a problem. They are important because efficient algorithms ensure optimal performance, especially when dealing with large datasets. The different classes of problems include constant time (O(1)), logarithmic time (O(log n)), linear time (O(n)), quadratic time (O(n²)), and so on, based on how the resources grow as the input size increases.</p>
+        </div>
+
+        <div class="section-title">Design Principles</div>
+        <div class="question">
+            <h3>3. Take away from different design principles from chapter 2</h3>
+        </div>
+        <div class="answer">
+            <p>Design principles include modularity, reusability, simplicity, and efficiency. These principles emphasize breaking down problems into manageable parts, optimizing for both time and space, and ensuring that solutions can be easily adapted to other scenarios or inputs.</p>
+        </div>
+
+        <div class="section-title">Hierarchical Data Structures</div>
+        <div class="question">
+            <h3>4. The hierarchical data and how different tree data structures solve and optimize over the problem scenarios (tree, BST, AVL, 2-3, red-black, heap, trie)</h3>
+        </div>
+        <div class="answer">
+            <p>Hierarchical data structures, such as trees, are used to represent data in a hierarchical way. Binary Search Trees (BST), AVL Trees, Red-Black Trees, and others optimize operations like searching, insertion, and deletion. These structures help balance data, ensuring optimal performance in scenarios where data needs to be accessed or modified efficiently.</p>
+        </div>
+
+        <div class="section-title">Array Query Algorithms</div>
+        <div class="question">
+            <h3>5. The need of array query algorithms and their implications. Their applications and principles need to be discussed</h3>
+        </div>
+        <div class="answer">
+            <p>Array query algorithms are crucial for efficiently accessing or manipulating large arrays of data. These algorithms, such as binary search or segment trees, optimize the time complexity of queries. They are used in scenarios like searching, range queries, and updates in large datasets.</p>
+        </div>
+
+        <div class="section-title">Tree vs Graph</div>
+        <div class="question">
+            <h3>6. Differentiate between tree and graphs and their traversals. The applications of each</h3>
+        </div>
+        <div class="answer">
+            <p>Trees are a type of graph with no cycles, while graphs can have cycles. Tree traversals (e.g., preorder, inorder, postorder) are used to access each node, while graph traversals (e.g., BFS, DFS) explore all vertices. Trees are used in hierarchical data, while graphs are used in networks, social media, and pathfinding applications.</p>
+        </div>
+
+        <div class="section-title">Sorting and Searching</div>
+        <div class="question">
+            <h3>7. Deliberate on sorting and searching algorithms, the technique behind each and they connect to real world</h3>
+        </div>
+        <div class="answer">
+            <p>Sorting algorithms like quicksort, mergesort, and bubblesort are used to order data, while searching algorithms like binary search and linear search help locate specific elements in datasets. These techniques are foundational in applications like database management and file system operations.</p>
+        </div>
+
+        <div class="section-title">Graph Algorithms</div>
+        <div class="question">
+            <h3>8. Discuss the importance of graph algorithms with respect to spanning trees and shortest paths</h3>
+        </div>
+        <div class="answer">
+            <p>Graph algorithms like Prim's and Kruskal's help find minimum spanning trees, which are useful in network design. Shortest path algorithms like Dijkstra's and Bellman-Ford are critical for navigation systems, telecommunications, and other applications that require efficient pathfinding.</p>
+        </div>
+
+        <div class="section-title">Algorithm Design Techniques</div>
+        <div class="question">
+            <h3>9. Discuss about the different studied algorithm design techniques.</h3>
+        </div>
+        <div class="answer">
+            <p>Common algorithm design techniques include divide and conquer, dynamic programming, greedy algorithms, and backtracking. These approaches solve problems by breaking them down, optimizing subproblems, making locally optimal choices, and exploring multiple possible solutions.</p>
+        </div>
+
+        <!-- Reflection and Problem Solving Questions -->
+        <div class="section-title">Reflection and Problem Solving</div>
+
+        <div class="question">
+            <h3>10. How do you determine the most efficient approach when solving a complex problem?</h3>
+        </div>
+        <div class="answer">
+            <p>To determine the most efficient approach, I analyze the problem's constraints and requirements, and choose the algorithm that minimizes time and space complexity while meeting these needs. I also consider factors like scalability and ease of implementation.</p>
+        </div>
+
+        <div class="question">
+            <h3>11. Reflect on a situation where you need to balance multiple conflicting constraints in a design. What approach did you take?</h3>
+        </div>
+        <div class="answer">
+            <p>When balancing conflicting constraints, I prioritize the most critical ones and consider trade-offs. In some cases, a compromise approach might be necessary, where a solution is designed to handle the majority of cases but not all extremes.</p>
+        </div>
+
+        <!-- Additional questions can follow this pattern -->
+    </div>
+</body>
+</html>
